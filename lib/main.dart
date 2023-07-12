@@ -15,10 +15,10 @@ import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 
 // Internal Packages
-import 'package:thunder/core/singletons/preferences.dart';
-import 'package:thunder/routes.dart';
-import 'package:thunder/core/singletons/database.dart';
-import 'package:thunder/core/theme/bloc/theme_bloc.dart';
+import 'package:bolt/core/singletons/preferences.dart';
+import 'package:bolt/routes.dart';
+import 'package:bolt/core/singletons/database.dart';
+import 'package:bolt/core/theme/bloc/theme_bloc.dart';
 
 // Ignore specific exceptions to send to Sentry
 FutureOr<SentryEvent?> beforeSend(SentryEvent event, {Hint? hint}) async {
@@ -42,9 +42,11 @@ void main() async {
   // Load up environment variables
   await dotenv.load(fileName: ".env");
 
+  print ('load up database');
   // Load up sqlite database
   await DB.instance.database;
 
+  print('load up shared preferences');
   // Load up SharedPreferences to check if Sentry error tracking is enabled - it is disabled by default
   await UserPreferences.instance.refetchPreferences();
 
@@ -60,15 +62,16 @@ void main() async {
         options.tracesSampleRate = kDebugMode ? 1.0 : 0.1;
         options.beforeSend = beforeSend;
       },
-      appRunner: () => runApp(const ThunderApp()),
+      appRunner: () => runApp(const BoltApp()),
     );
   } else {
-    runApp(const ThunderApp());
+    print('Sentry DSN is null, not initializing Sentry');
+    runApp(const BoltApp());
   }
 }
 
-class ThunderApp extends StatelessWidget {
-  const ThunderApp({super.key});
+class BoltApp extends StatelessWidget {
+  const BoltApp({super.key});
 
   @override
   Widget build(BuildContext context) {

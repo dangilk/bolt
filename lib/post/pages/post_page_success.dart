@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/core/models/comment_view_tree.dart';
-import 'package:thunder/post/bloc/post_bloc.dart';
-import 'package:thunder/post/widgets/comment_view.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/core/models/comment_view_tree.dart';
+import 'package:bolt/post/bloc/post_bloc.dart';
+import 'package:bolt/post/widgets/comment_view.dart';
 
 class PostPageSuccess extends StatefulWidget {
   final PostViewMedia postView;

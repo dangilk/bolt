@@ -8,14 +8,14 @@ import 'package:stream_transform/stream_transform.dart';
 
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/account/models/account.dart';
-import 'package:thunder/core/auth/helpers/fetch_account.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/utils/comment.dart';
-import 'package:thunder/core/models/comment_view_tree.dart';
-import 'package:thunder/core/singletons/lemmy_client.dart';
-import 'package:thunder/utils/network_errors.dart';
-import 'package:thunder/utils/post.dart';
+import 'package:bolt/account/models/account.dart';
+import 'package:bolt/core/auth/helpers/fetch_account.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/utils/comment.dart';
+import 'package:bolt/core/models/comment_view_tree.dart';
+import 'package:bolt/core/singletons/lemmy_client.dart';
+import 'package:bolt/utils/network_errors.dart';
+import 'package:bolt/utils/post.dart';
 
 import '../../utils/constants.dart';
 

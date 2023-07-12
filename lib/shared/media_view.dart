@@ -7,17 +7,17 @@ import 'package:extended_image/extended_image.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:thunder/utils/image.dart';
+import 'package:bolt/utils/image.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:thunder/core/enums/media_type.dart';
-import 'package:thunder/core/enums/view_mode.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/core/theme/bloc/theme_bloc.dart';
-import 'package:thunder/shared/image_viewer.dart';
-import 'package:thunder/shared/link_preview_card.dart';
-import 'package:thunder/shared/webview.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/core/enums/media_type.dart';
+import 'package:bolt/core/enums/view_mode.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/core/theme/bloc/theme_bloc.dart';
+import 'package:bolt/shared/image_viewer.dart';
+import 'package:bolt/shared/link_preview_card.dart';
+import 'package:bolt/shared/webview.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 
 class MediaView extends StatefulWidget {
   final Post? post;

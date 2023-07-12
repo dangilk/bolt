@@ -4,14 +4,14 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/core/singletons/preferences.dart';
-import 'package:thunder/settings/widgets/list_option.dart';
-import 'package:thunder/settings/widgets/toggle_option.dart';
-import 'package:thunder/shared/comment_sort_picker.dart';
-import 'package:thunder/shared/sort_picker.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/utils/bottom_sheet_list_picker.dart';
-import 'package:thunder/utils/constants.dart';
+import 'package:bolt/core/singletons/preferences.dart';
+import 'package:bolt/settings/widgets/list_option.dart';
+import 'package:bolt/settings/widgets/toggle_option.dart';
+import 'package:bolt/shared/comment_sort_picker.dart';
+import 'package:bolt/shared/sort_picker.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/utils/bottom_sheet_list_picker.dart';
+import 'package:bolt/utils/constants.dart';
 
 class GeneralSettingsPage extends StatefulWidget {
   const GeneralSettingsPage({super.key});

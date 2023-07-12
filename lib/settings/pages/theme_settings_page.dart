@@ -3,13 +3,13 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 
-import 'package:thunder/core/enums/font_scale.dart';
-import 'package:thunder/core/singletons/preferences.dart';
-import 'package:thunder/core/theme/bloc/theme_bloc.dart';
-import 'package:thunder/settings/widgets/list_option.dart';
-import 'package:thunder/settings/widgets/toggle_option.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/utils/bottom_sheet_list_picker.dart';
+import 'package:bolt/core/enums/font_scale.dart';
+import 'package:bolt/core/singletons/preferences.dart';
+import 'package:bolt/core/theme/bloc/theme_bloc.dart';
+import 'package:bolt/settings/widgets/list_option.dart';
+import 'package:bolt/settings/widgets/toggle_option.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/utils/bottom_sheet_list_picker.dart';
 
 class ThemeSettingsPage extends StatefulWidget {
   const ThemeSettingsPage({super.key});

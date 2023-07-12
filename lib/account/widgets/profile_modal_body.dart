@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:thunder/account/models/account.dart';
-import 'package:thunder/account/pages/login_page.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/account/models/account.dart';
+import 'package:bolt/account/pages/login_page.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 
 class ProfileModalBody extends StatelessWidget {
   const ProfileModalBody({super.key});

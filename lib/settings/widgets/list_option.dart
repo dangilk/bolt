@@ -1,6 +1,6 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
-import 'package:thunder/utils/bottom_sheet_list_picker.dart';
+import 'package:bolt/utils/bottom_sheet_list_picker.dart';
 
 class ListOption<T> extends StatelessWidget {
   // Appearance

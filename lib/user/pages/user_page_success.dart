@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
-import 'package:thunder/community/widgets/post_card_list.dart';
-import 'package:thunder/user/widgets/user_header.dart';
-import 'package:thunder/core/models/comment_view_tree.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/user/bloc/user_bloc.dart';
-import 'package:thunder/user/widgets/comment_card.dart';
+import 'package:bolt/community/widgets/post_card_list.dart';
+import 'package:bolt/user/widgets/user_header.dart';
+import 'package:bolt/core/models/comment_view_tree.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/user/bloc/user_bloc.dart';
+import 'package:bolt/user/widgets/comment_card.dart';
 
 const List<Widget> userOptionTypes = <Widget>[
   Padding(padding: EdgeInsets.all(8.0), child: Text('Posts')),

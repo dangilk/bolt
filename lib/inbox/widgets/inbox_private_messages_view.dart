@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/inbox/bloc/inbox_bloc.dart';
-import 'package:thunder/shared/common_markdown_body.dart';
-import 'package:thunder/utils/date_time.dart';
+import 'package:bolt/inbox/bloc/inbox_bloc.dart';
+import 'package:bolt/shared/common_markdown_body.dart';
+import 'package:bolt/utils/date_time.dart';
 
 class InboxPrivateMessagesView extends StatelessWidget {
   final List<PrivateMessageView> privateMessages;

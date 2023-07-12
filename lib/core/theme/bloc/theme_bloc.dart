@@ -7,7 +7,7 @@ import 'package:bloc_concurrency/bloc_concurrency.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stream_transform/stream_transform.dart';
-import 'package:thunder/core/singletons/preferences.dart';
+import 'package:bolt/core/singletons/preferences.dart';
 
 part 'theme_event.dart';
 part 'theme_state.dart';

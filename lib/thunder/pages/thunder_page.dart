@@ -6,20 +6,20 @@ import 'package:overlay_support/overlay_support.dart';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:thunder/core/singletons/preferences.dart';
-import 'package:thunder/inbox/bloc/inbox_bloc.dart';
-import 'package:thunder/inbox/inbox.dart';
-import 'package:thunder/search/bloc/search_bloc.dart';
-import 'package:thunder/shared/webview.dart';
-import 'package:thunder/account/account.dart';
-import 'package:thunder/account/bloc/account_bloc.dart';
-import 'package:thunder/community/pages/community_page.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/core/models/version.dart';
-import 'package:thunder/search/pages/search_page.dart';
-import 'package:thunder/settings/pages/settings_page.dart';
-import 'package:thunder/shared/error_message.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/core/singletons/preferences.dart';
+import 'package:bolt/inbox/bloc/inbox_bloc.dart';
+import 'package:bolt/inbox/inbox.dart';
+import 'package:bolt/search/bloc/search_bloc.dart';
+import 'package:bolt/shared/webview.dart';
+import 'package:bolt/account/account.dart';
+import 'package:bolt/account/bloc/account_bloc.dart';
+import 'package:bolt/community/pages/community_page.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/core/models/version.dart';
+import 'package:bolt/search/pages/search_page.dart';
+import 'package:bolt/settings/pages/settings_page.dart';
+import 'package:bolt/shared/error_message.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Thunder extends StatefulWidget {

@@ -5,19 +5,19 @@ import 'package:lemmy_api_client/v3.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 
-import 'package:thunder/account/bloc/account_bloc.dart';
-import 'package:thunder/community/bloc/community_bloc.dart';
-import 'package:thunder/community/utils/post_actions.dart';
-import 'package:thunder/community/utils/post_card_action_helpers.dart';
-import 'package:thunder/community/widgets/post_card_view_comfortable.dart';
-import 'package:thunder/community/widgets/post_card_view_compact.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/core/enums/swipe_action.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/post/bloc/post_bloc.dart' as post_bloc; // renamed to prevent clash with VotePostEvent, etc from community_bloc
-import 'package:thunder/post/pages/post_page.dart';
-import 'package:thunder/post/utils/comment_actions.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/account/bloc/account_bloc.dart';
+import 'package:bolt/community/bloc/community_bloc.dart';
+import 'package:bolt/community/utils/post_actions.dart';
+import 'package:bolt/community/utils/post_card_action_helpers.dart';
+import 'package:bolt/community/widgets/post_card_view_comfortable.dart';
+import 'package:bolt/community/widgets/post_card_view_compact.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/core/enums/swipe_action.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/post/bloc/post_bloc.dart' as post_bloc; // renamed to prevent clash with VotePostEvent, etc from community_bloc
+import 'package:bolt/post/pages/post_page.dart';
+import 'package:bolt/post/utils/comment_actions.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 
 class PostCard extends StatefulWidget {
   final PostViewMedia postViewMedia;

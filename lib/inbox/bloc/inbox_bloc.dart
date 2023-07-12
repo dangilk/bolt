@@ -6,9 +6,9 @@ import 'package:lemmy_api_client/v3.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stream_transform/stream_transform.dart';
-import 'package:thunder/account/models/account.dart';
-import 'package:thunder/core/auth/helpers/fetch_account.dart';
-import 'package:thunder/core/singletons/lemmy_client.dart';
+import 'package:bolt/account/models/account.dart';
+import 'package:bolt/core/auth/helpers/fetch_account.dart';
+import 'package:bolt/core/singletons/lemmy_client.dart';
 
 part 'inbox_event.dart';
 part 'inbox_state.dart';

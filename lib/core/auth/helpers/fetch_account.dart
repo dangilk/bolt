@@ -1,8 +1,8 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:thunder/account/models/account.dart';
-import 'package:thunder/core/singletons/lemmy_client.dart';
-import 'package:thunder/core/singletons/preferences.dart';
+import 'package:bolt/account/models/account.dart';
+import 'package:bolt/core/singletons/lemmy_client.dart';
+import 'package:bolt/core/singletons/preferences.dart';
 
 Future<Account?> fetchActiveProfileAccount() async {
   SharedPreferences prefs = UserPreferences.instance.sharedPreferences;

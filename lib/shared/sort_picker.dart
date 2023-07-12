@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lemmy_api_client/v3.dart';
-import 'package:thunder/utils/bottom_sheet_list_picker.dart';
+import 'package:bolt/utils/bottom_sheet_list_picker.dart';
 
 const List<ListPickerItem<SortType>> defaultSortTypeItems = [
   ListPickerItem(

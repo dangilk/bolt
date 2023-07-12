@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/core/enums/font_scale.dart';
-import 'package:thunder/core/models/comment_view_tree.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/utils/date_time.dart';
-import 'package:thunder/utils/numbers.dart';
+import 'package:bolt/core/enums/font_scale.dart';
+import 'package:bolt/core/models/comment_view_tree.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/utils/date_time.dart';
+import 'package:bolt/utils/numbers.dart';
 
 class CommentHeader extends StatelessWidget {
   final CommentViewTree commentViewTree;

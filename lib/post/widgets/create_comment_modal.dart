@@ -6,10 +6,10 @@ import 'package:lemmy_api_client/v3.dart';
 import 'package:markdown_editable_textinput/format_markdown.dart';
 import 'package:markdown_editable_textinput/markdown_text_input.dart';
 
-import 'package:thunder/core/models/comment_view_tree.dart';
-import 'package:thunder/inbox/bloc/inbox_bloc.dart';
-import 'package:thunder/post/bloc/post_bloc.dart';
-import 'package:thunder/shared/common_markdown_body.dart';
+import 'package:bolt/core/models/comment_view_tree.dart';
+import 'package:bolt/inbox/bloc/inbox_bloc.dart';
+import 'package:bolt/post/bloc/post_bloc.dart';
+import 'package:bolt/shared/common_markdown_body.dart';
 
 const List<Widget> postTypes = <Widget>[Text('Text'), Text('Image'), Text('Link')];
 

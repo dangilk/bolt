@@ -5,19 +5,19 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
 import 'package:share_plus/share_plus.dart';
 
-import 'package:thunder/account/bloc/account_bloc.dart' as account_bloc;
-import 'package:thunder/community/widgets/post_card_metadata.dart';
-import 'package:thunder/core/enums/font_scale.dart';
-import 'package:thunder/post/widgets/create_comment_modal.dart';
-import 'package:thunder/shared/common_markdown_body.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/community/pages/community_page.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/post/bloc/post_bloc.dart';
-import 'package:thunder/shared/media_view.dart';
-import 'package:thunder/user/pages/user_page.dart';
-import 'package:thunder/utils/numbers.dart';
+import 'package:bolt/account/bloc/account_bloc.dart' as account_bloc;
+import 'package:bolt/community/widgets/post_card_metadata.dart';
+import 'package:bolt/core/enums/font_scale.dart';
+import 'package:bolt/post/widgets/create_comment_modal.dart';
+import 'package:bolt/shared/common_markdown_body.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/community/pages/community_page.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/post/bloc/post_bloc.dart';
+import 'package:bolt/shared/media_view.dart';
+import 'package:bolt/user/pages/user_page.dart';
+import 'package:bolt/utils/numbers.dart';
 
 import '../../utils/date_time.dart';
 

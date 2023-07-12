@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/inbox/bloc/inbox_bloc.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/inbox/bloc/inbox_bloc.dart';
 
-import 'package:thunder/inbox/widgets/inbox_mentions_view.dart';
-import 'package:thunder/inbox/widgets/inbox_private_messages_view.dart';
-import 'package:thunder/inbox/widgets/inbox_replies_view.dart';
-import 'package:thunder/post/bloc/post_bloc.dart';
-import 'package:thunder/shared/error_message.dart';
+import 'package:bolt/inbox/widgets/inbox_mentions_view.dart';
+import 'package:bolt/inbox/widgets/inbox_private_messages_view.dart';
+import 'package:bolt/inbox/widgets/inbox_replies_view.dart';
+import 'package:bolt/post/bloc/post_bloc.dart';
+import 'package:bolt/shared/error_message.dart';
 
 enum InboxType { replies, mentions, messages }
 

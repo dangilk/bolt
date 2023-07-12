@@ -4,13 +4,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/core/enums/swipe_action.dart';
-import 'package:thunder/post/utils/comment_actions.dart';
-import 'package:thunder/post/widgets/comment_header.dart';
-import 'package:thunder/shared/common_markdown_body.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/core/models/comment_view_tree.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/core/enums/swipe_action.dart';
+import 'package:bolt/post/utils/comment_actions.dart';
+import 'package:bolt/post/widgets/comment_header.dart';
+import 'package:bolt/shared/common_markdown_body.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/core/models/comment_view_tree.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 
 class CommentCard extends StatefulWidget {
   final Function(int, VoteType) onVoteAction;
@@ -89,7 +89,6 @@ class _CommentCardState extends State<CommentCard> with SingleTickerProviderStat
   @override
   void initState() {
     super.initState();
-    print('in here');
     isHidden = widget.collapsed;
   }
 

@@ -3,12 +3,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/core/enums/font_scale.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/post/widgets/comment_card.dart';
-import 'package:thunder/core/models/comment_view_tree.dart';
-import 'package:thunder/post/widgets/post_view.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/core/enums/font_scale.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/post/widgets/comment_card.dart';
+import 'package:bolt/core/models/comment_view_tree.dart';
+import 'package:bolt/post/widgets/post_view.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 
 class CommentSubview extends StatefulWidget {
   final List<CommentViewTree> comments;

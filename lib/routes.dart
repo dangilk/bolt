@@ -3,13 +3,13 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:go_router/go_router.dart';
 
-import 'package:thunder/settings/pages/about_settings_page.dart';
-import 'package:thunder/settings/pages/general_settings_page.dart';
-import 'package:thunder/settings/pages/gesture_settings_page.dart';
-import 'package:thunder/settings/pages/theme_settings_page.dart';
-import 'package:thunder/settings/settings.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/thunder/thunder.dart';
+import 'package:bolt/settings/pages/about_settings_page.dart';
+import 'package:bolt/settings/pages/general_settings_page.dart';
+import 'package:bolt/settings/pages/gesture_settings_page.dart';
+import 'package:bolt/settings/pages/theme_settings_page.dart';
+import 'package:bolt/settings/settings.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/thunder/thunder.dart';
 
 final GoRouter router = GoRouter(
   debugLogDiagnostics: true,

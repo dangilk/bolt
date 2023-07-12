@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:thunder/account/bloc/account_bloc.dart';
-import 'package:thunder/account/utils/profiles.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/user/pages/user_page.dart';
+import 'package:bolt/account/bloc/account_bloc.dart';
+import 'package:bolt/account/utils/profiles.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/user/pages/user_page.dart';
 
 class AccountPage extends StatefulWidget {
   const AccountPage({super.key});

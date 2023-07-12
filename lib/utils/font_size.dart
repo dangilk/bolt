@@ -1,5 +1,5 @@
-import 'package:thunder/core/enums/font_scale.dart';
-import 'package:thunder/core/singletons/preferences.dart';
+import 'package:bolt/core/enums/font_scale.dart';
+import 'package:bolt/core/singletons/preferences.dart';
 
 Future<Map<String, double>> getTextScaleFactor() async {
   final prefs = UserPreferences.instance.sharedPreferences;

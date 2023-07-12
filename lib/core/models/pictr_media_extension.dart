@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:thunder/core/enums/media_type.dart';
-import 'package:thunder/core/models/media.dart';
-import 'package:thunder/core/models/media_extension.dart';
-import 'package:thunder/utils/image.dart';
+import 'package:bolt/core/enums/media_type.dart';
+import 'package:bolt/core/models/media.dart';
+import 'package:bolt/core/models/media_extension.dart';
+import 'package:bolt/utils/image.dart';
 
 abstract class PictrsMediaExtension {
   PictrsMediaExtension();

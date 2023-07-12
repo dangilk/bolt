@@ -3,14 +3,14 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/community/utils/post_card_action_helpers.dart';
-import 'package:thunder/community/widgets/post_card_metadata.dart';
-import 'package:thunder/core/enums/font_scale.dart';
-import 'package:thunder/core/enums/view_mode.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/shared/media_view.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/utils/instance.dart';
+import 'package:bolt/community/utils/post_card_action_helpers.dart';
+import 'package:bolt/community/widgets/post_card_metadata.dart';
+import 'package:bolt/core/enums/font_scale.dart';
+import 'package:bolt/core/enums/view_mode.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/shared/media_view.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/utils/instance.dart';
 
 class PostCardViewCompact extends StatelessWidget {
   final PostViewMedia postViewMedia;

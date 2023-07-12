@@ -1,10 +1,10 @@
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thunder/core/enums/view_mode.dart';
-import 'package:thunder/core/theme/bloc/theme_bloc.dart';
-import 'package:thunder/shared/webview.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/core/enums/view_mode.dart';
+import 'package:bolt/core/theme/bloc/theme_bloc.dart';
+import 'package:bolt/shared/webview.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class PreviewImage extends StatefulWidget {

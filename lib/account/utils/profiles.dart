@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/account/widgets/profile_modal_body.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/account/widgets/profile_modal_body.dart';
 
 void showProfileModalSheet(BuildContext context) {
   AuthBloc authBloc = context.read<AuthBloc>();

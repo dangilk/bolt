@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
-import 'package:thunder/account/bloc/account_bloc.dart';
-import 'package:thunder/community/bloc/community_bloc.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/utils/instance.dart';
+import 'package:bolt/account/bloc/account_bloc.dart';
+import 'package:bolt/community/bloc/community_bloc.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/utils/instance.dart';
 
 class Destination {
   const Destination(this.label, this.listingType, this.icon);

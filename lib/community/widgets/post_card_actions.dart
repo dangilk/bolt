@@ -5,7 +5,7 @@ import 'package:lemmy_api_client/v3.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 
 class PostCardActions extends StatelessWidget {
   // Callback functions

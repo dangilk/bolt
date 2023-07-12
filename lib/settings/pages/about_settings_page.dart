@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thunder/thunder/thunder.dart';
+import 'package:bolt/thunder/thunder.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:thunder/core/update/check_github_update.dart';
-import 'package:thunder/shared/webview.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/core/update/check_github_update.dart';
+import 'package:bolt/shared/webview.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 
 class AboutSettingsPage extends StatelessWidget {
   const AboutSettingsPage({super.key});

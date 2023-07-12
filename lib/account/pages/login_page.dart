@@ -4,8 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/utils/text_input_formatter.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/utils/text_input_formatter.dart';
 
 class LoginPage extends StatefulWidget {
   final VoidCallback popRegister;

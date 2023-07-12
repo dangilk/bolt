@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thunder/core/enums/font_scale.dart';
-import 'package:thunder/shared/image_preview.dart';
-import 'package:thunder/utils/font_size.dart';
+import 'package:bolt/core/enums/font_scale.dart';
+import 'package:bolt/shared/image_preview.dart';
+import 'package:bolt/utils/font_size.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 
-import 'package:thunder/account/bloc/account_bloc.dart';
-import 'package:thunder/community/pages/community_page.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/shared/webview.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/utils/instance.dart';
+import 'package:bolt/account/bloc/account_bloc.dart';
+import 'package:bolt/community/pages/community_page.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/shared/webview.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/utils/instance.dart';
 
 class CommonMarkdownBody extends StatelessWidget {
   final String body;

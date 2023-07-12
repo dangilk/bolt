@@ -4,14 +4,14 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/account/bloc/account_bloc.dart' as account_bloc;
-import 'package:thunder/community/bloc/community_bloc.dart';
-import 'package:thunder/community/pages/create_post_page.dart';
-import 'package:thunder/community/widgets/community_drawer.dart';
-import 'package:thunder/community/widgets/post_card_list.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/shared/error_message.dart';
-import 'package:thunder/shared/sort_picker.dart';
+import 'package:bolt/account/bloc/account_bloc.dart' as account_bloc;
+import 'package:bolt/community/bloc/community_bloc.dart';
+import 'package:bolt/community/pages/create_post_page.dart';
+import 'package:bolt/community/widgets/community_drawer.dart';
+import 'package:bolt/community/widgets/post_card_list.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/shared/error_message.dart';
+import 'package:bolt/shared/sort_picker.dart';
 
 class CommunityPage extends StatefulWidget {
   final int? communityId;

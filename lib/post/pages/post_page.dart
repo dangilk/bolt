@@ -3,16 +3,16 @@ import 'package:flutter/services.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
-import 'package:thunder/community/bloc/community_bloc.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/post/bloc/post_bloc.dart';
-import 'package:thunder/post/pages/post_page_success.dart';
-import 'package:thunder/post/widgets/create_comment_modal.dart';
-import 'package:thunder/shared/comment_sort_picker.dart';
-import 'package:thunder/shared/error_message.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/thunder/thunder.dart';
+import 'package:bolt/community/bloc/community_bloc.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/post/bloc/post_bloc.dart';
+import 'package:bolt/post/pages/post_page_success.dart';
+import 'package:bolt/post/widgets/create_comment_modal.dart';
+import 'package:bolt/shared/comment_sort_picker.dart';
+import 'package:bolt/shared/error_message.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/thunder/thunder.dart';
 
 class PostPage extends StatefulWidget {
   final PostViewMedia? postView;

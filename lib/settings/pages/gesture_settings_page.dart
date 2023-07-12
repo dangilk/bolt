@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 
-import 'package:thunder/core/enums/swipe_action.dart';
-import 'package:thunder/core/singletons/preferences.dart';
-import 'package:thunder/settings/widgets/list_option.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/utils/bottom_sheet_list_picker.dart';
+import 'package:bolt/core/enums/swipe_action.dart';
+import 'package:bolt/core/singletons/preferences.dart';
+import 'package:bolt/settings/widgets/list_option.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/utils/bottom_sheet_list_picker.dart';
 
 class GestureSettingsPage extends StatefulWidget {
   const GestureSettingsPage({super.key});

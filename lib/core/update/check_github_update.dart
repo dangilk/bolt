@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
-import 'package:thunder/core/models/version.dart';
+import 'package:bolt/core/models/version.dart';
 
 Future<String?> getCurrentVersion() async {
   PackageInfo packageInfo = await PackageInfo.fromPlatform();

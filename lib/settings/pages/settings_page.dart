@@ -4,8 +4,8 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:thunder/core/update/check_github_update.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/core/update/check_github_update.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
 
 class SettingTopic {
   final String title;

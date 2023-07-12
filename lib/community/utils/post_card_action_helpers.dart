@@ -6,14 +6,14 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:share_plus/share_plus.dart';
 
-import 'package:thunder/account/bloc/account_bloc.dart';
-import 'package:thunder/community/bloc/community_bloc.dart';
-import 'package:thunder/community/pages/community_page.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/core/enums/media_type.dart';
-import 'package:thunder/core/models/post_view_media.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/user/pages/user_page.dart';
+import 'package:bolt/account/bloc/account_bloc.dart';
+import 'package:bolt/community/bloc/community_bloc.dart';
+import 'package:bolt/community/pages/community_page.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/core/enums/media_type.dart';
+import 'package:bolt/core/models/post_view_media.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/user/pages/user_page.dart';
 
 enum PostCardAction { visitProfile, visitCommunity, sharePost, shareMedia, shareLink, blockCommunity }
 

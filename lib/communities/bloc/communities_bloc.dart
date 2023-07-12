@@ -2,10 +2,10 @@ import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/account/models/account.dart';
-import 'package:thunder/core/auth/helpers/fetch_account.dart';
+import 'package:bolt/account/models/account.dart';
+import 'package:bolt/core/auth/helpers/fetch_account.dart';
 
-import 'package:thunder/core/singletons/lemmy_client.dart';
+import 'package:bolt/core/singletons/lemmy_client.dart';
 
 part 'communities_event.dart';
 part 'communities_state.dart';

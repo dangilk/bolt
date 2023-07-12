@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/communities/bloc/communities_bloc.dart';
+import 'package:bolt/communities/bloc/communities_bloc.dart';
 
 class CommunitiesPage extends StatelessWidget {
   const CommunitiesPage({super.key});

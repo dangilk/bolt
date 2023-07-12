@@ -4,9 +4,9 @@ import 'package:cached_network_image/cached_network_image.dart';
 
 import 'package:lemmy_api_client/v3.dart';
 
-import 'package:thunder/shared/icon_text.dart';
-import 'package:thunder/utils/instance.dart';
-import 'package:thunder/utils/numbers.dart';
+import 'package:bolt/shared/icon_text.dart';
+import 'package:bolt/utils/instance.dart';
+import 'package:bolt/utils/numbers.dart';
 
 class CommunityHeader extends StatelessWidget {
   final FullCommunityView? communityInfo;

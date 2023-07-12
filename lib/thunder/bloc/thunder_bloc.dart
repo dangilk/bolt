@@ -8,12 +8,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:stream_transform/stream_transform.dart';
 
-import 'package:thunder/core/enums/font_scale.dart';
-import 'package:thunder/core/enums/swipe_action.dart';
-import 'package:thunder/core/models/version.dart';
-import 'package:thunder/core/singletons/preferences.dart';
-import 'package:thunder/core/update/check_github_update.dart';
-import 'package:thunder/utils/constants.dart';
+import 'package:bolt/core/enums/font_scale.dart';
+import 'package:bolt/core/enums/swipe_action.dart';
+import 'package:bolt/core/models/version.dart';
+import 'package:bolt/core/singletons/preferences.dart';
+import 'package:bolt/core/update/check_github_update.dart';
+import 'package:bolt/utils/constants.dart';
 
 part 'thunder_event.dart';
 part 'thunder_state.dart';

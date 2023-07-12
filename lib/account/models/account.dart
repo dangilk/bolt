@@ -1,5 +1,5 @@
 import 'package:sqflite/sqflite.dart';
-import 'package:thunder/core/singletons/database.dart';
+import 'package:bolt/core/singletons/database.dart';
 
 class Account {
   final String id;

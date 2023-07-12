@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:extended_image/extended_image.dart';
 
-import 'package:thunder/shared/hero.dart';
+import 'package:bolt/shared/hero.dart';
 
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 

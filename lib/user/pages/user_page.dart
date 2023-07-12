@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:thunder/account/utils/profiles.dart';
-import 'package:thunder/community/bloc/community_bloc.dart' as community;
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/user/pages/user_page_success.dart';
-import 'package:thunder/shared/error_message.dart';
-import 'package:thunder/user/bloc/user_bloc.dart';
+import 'package:bolt/account/utils/profiles.dart';
+import 'package:bolt/community/bloc/community_bloc.dart' as community;
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/user/pages/user_page_success.dart';
+import 'package:bolt/shared/error_message.dart';
+import 'package:bolt/user/bloc/user_bloc.dart';
 
 class UserPage extends StatefulWidget {
   final int? userId;

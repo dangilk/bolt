@@ -4,15 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:thunder/account/bloc/account_bloc.dart';
-import 'package:thunder/community/pages/community_page.dart';
-import 'package:thunder/core/auth/bloc/auth_bloc.dart';
-import 'package:thunder/core/enums/view_mode.dart';
-import 'package:thunder/core/theme/bloc/theme_bloc.dart';
-import 'package:thunder/shared/webview.dart';
-import 'package:thunder/thunder/bloc/thunder_bloc.dart';
-import 'package:thunder/utils/instance.dart';
-import 'package:thunder/shared/image_preview.dart';
+import 'package:bolt/account/bloc/account_bloc.dart';
+import 'package:bolt/community/pages/community_page.dart';
+import 'package:bolt/core/auth/bloc/auth_bloc.dart';
+import 'package:bolt/core/enums/view_mode.dart';
+import 'package:bolt/core/theme/bloc/theme_bloc.dart';
+import 'package:bolt/shared/webview.dart';
+import 'package:bolt/thunder/bloc/thunder_bloc.dart';
+import 'package:bolt/utils/instance.dart';
+import 'package:bolt/shared/image_preview.dart';
 
 class LinkPreviewCard extends StatelessWidget {
   const LinkPreviewCard({

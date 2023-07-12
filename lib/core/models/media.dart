@@ -1,4 +1,4 @@
-import 'package:thunder/core/enums/media_type.dart';
+import 'package:bolt/core/enums/media_type.dart';
 
 /// The Media class represents information for a given media source.
 class Media {
